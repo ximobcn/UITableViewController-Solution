@@ -14,13 +14,13 @@
 		216B2E9A1977F89100A3ED07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 216B2E991977F89100A3ED07 /* main.m */; };
 		216B2E9E1977F89100A3ED07 /* XAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 216B2E9D1977F89100A3ED07 /* XAAppDelegate.m */; };
 		216B2EA11977F89100A3ED07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216B2E9F1977F89100A3ED07 /* Main.storyboard */; };
-		216B2EA41977F89100A3ED07 /* XAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 216B2EA31977F89100A3ED07 /* XAViewController.m */; };
 		216B2EA61977F89100A3ED07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 216B2EA51977F89100A3ED07 /* Images.xcassets */; };
 		216B2EAD1977F89100A3ED07 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216B2EAC1977F89100A3ED07 /* XCTest.framework */; };
 		216B2EAE1977F89100A3ED07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216B2E8D1977F89100A3ED07 /* Foundation.framework */; };
 		216B2EAF1977F89100A3ED07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216B2E911977F89100A3ED07 /* UIKit.framework */; };
 		216B2EB71977F89100A3ED07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 216B2EB51977F89100A3ED07 /* InfoPlist.strings */; };
 		216B2EB91977F89100A3ED07 /* UITableViewController_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 216B2EB81977F89100A3ED07 /* UITableViewController_SolutionTests.m */; };
+		216B2EC71977FBDE00A3ED07 /* XATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 216B2EC61977FBDE00A3ED07 /* XATableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		216B2E9C1977F89100A3ED07 /* XAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XAAppDelegate.h; sourceTree = "<group>"; };
 		216B2E9D1977F89100A3ED07 /* XAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XAAppDelegate.m; sourceTree = "<group>"; };
 		216B2EA01977F89100A3ED07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		216B2EA21977F89100A3ED07 /* XAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XAViewController.h; sourceTree = "<group>"; };
-		216B2EA31977F89100A3ED07 /* XAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XAViewController.m; sourceTree = "<group>"; };
 		216B2EA51977F89100A3ED07 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		216B2EAB1977F89100A3ED07 /* UITableViewController SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		216B2EAC1977F89100A3ED07 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		216B2EB41977F89100A3ED07 /* UITableViewController SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		216B2EB61977F89100A3ED07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		216B2EB81977F89100A3ED07 /* UITableViewController_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_SolutionTests.m; sourceTree = "<group>"; };
+		216B2EC51977FBDE00A3ED07 /* XATableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XATableViewController.h; path = ../XATableViewController.h; sourceTree = "<group>"; };
+		216B2EC61977FBDE00A3ED07 /* XATableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XATableViewController.m; path = ../XATableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				216B2E9C1977F89100A3ED07 /* XAAppDelegate.h */,
 				216B2E9D1977F89100A3ED07 /* XAAppDelegate.m */,
 				216B2E9F1977F89100A3ED07 /* Main.storyboard */,
-				216B2EA21977F89100A3ED07 /* XAViewController.h */,
-				216B2EA31977F89100A3ED07 /* XAViewController.m */,
+				216B2EC51977FBDE00A3ED07 /* XATableViewController.h */,
+				216B2EC61977FBDE00A3ED07 /* XATableViewController.m */,
 				216B2EA51977F89100A3ED07 /* Images.xcassets */,
 				216B2E941977F89100A3ED07 /* Supporting Files */,
 			);
@@ -250,9 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				216B2EC71977FBDE00A3ED07 /* XATableViewController.m in Sources */,
 				216B2E9A1977F89100A3ED07 /* main.m in Sources */,
 				216B2E9E1977F89100A3ED07 /* XAAppDelegate.m in Sources */,
-				216B2EA41977F89100A3ED07 /* XAViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  XAViewController.h
+//  XATableViewController.h
 //  UITableViewController Solution
 //
 //  Created by Ximo on 17/07/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XAViewController : UIViewController
+@interface XATableViewController : UITableViewController
 
 @end
